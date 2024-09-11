@@ -1,20 +1,20 @@
 module.exports = {
-  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
+  purge: {
+    content: [
+      "./pages/**/*.tsx",
+      "./components/**/*.tsx",
+      "./layouts/**/*.tsx",  // Include layouts or any other directories with JSX/TSX
+    ],
+    options: {
+      safelist: [/^text-/],  // This will keep all classes that start with text-
+    },
+  },
   darkMode: "class",
   theme: {
-    fontFamily: {
-      sans: ["ui-sans-serif", "system-ui"],
-      kaushan: ["Kaushan Script"],
-    },
-    boxShadow: {
-      "custom-light": " 0 0 10px #313131",
-      "custom-dark": "5px 5px 10px #0a0c0e , -5px -5px 10px #14161c",
-    },
-
     extend: {
       colors: {
         green: {
-          DEFAULT: "#f81e1a",  // Changed from #00f260 to #f81e1a
+          DEFAULT: "#f81e1a",  // Your custom green
         },
         dark: {
           DEFAULT: "#010101",
