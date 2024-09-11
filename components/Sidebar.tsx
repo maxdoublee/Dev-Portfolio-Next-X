@@ -66,7 +66,7 @@ const Sidebar = () => {
 
       {/* Email Button */}
       <button
-        className="w-8/12 px-5 py-2 text-white bg-gradient-to-r from-gray-500 to-blue-500 rounded-full my-2"
+        className="w-8/12 px-5 py-2 text-white bg-black rounded-full my-2"
         onClick={() => window.open("mailto:code.sumax@gmail.com")}
       >
         Email Me
@@ -75,7 +75,7 @@ const Sidebar = () => {
       {/* Theme Toggle Button */}
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 mt-4 text-white bg-gradient-to-r from-gray-500 to-blue-500 rounded-full"
+        className="w-8/12 px-5 py-2 mt-4 text-white bg-black rounded-full"
       >
         Toggle Theme
       </button>
