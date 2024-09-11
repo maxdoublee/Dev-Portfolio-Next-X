@@ -8,13 +8,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="light">
       <div
-        className="min-h-screen flex justify-center items-start" // Flexbox to align content at the top
+        className="min-h-screen flex justify-center items-start pt-40" // Flexbox to center the content and add top padding
         style={{
-          backgroundImage: "url('/images/circuits.jpg')", // Background image path
+          backgroundImage: "url('/images/circuits.jpg')", // Use the desired background image
           backgroundSize: "cover", // Ensure the background image covers the entire viewport
           backgroundPosition: "center", // Center the background image
-          backgroundRepeat: "no-repeat", // Prevent the image from repeating
-          minHeight: "100vh", // Ensure full-screen height
+          backgroundRepeat: "no-repeat", // Prevent repetition
         }}
       >
         {/* Wrapper for Sidebar and Main Content */}
