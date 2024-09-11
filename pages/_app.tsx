@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="light">
       <div
-        className="grid grid-cols-12 gap-6 px-5 pt-40 pb-40 sm:px-20 md:px-32 lg:px-36 xl:px-48"
+        className="grid grid-cols-12 gap-6 px-5 pt-40 pb-50 sm:px-20 md:px-32 lg:px-36 xl:px-48"
         style={{
           backgroundImage: "url('/images/circuits.jpg')", // Circuit background image
           backgroundSize: "cover", // Ensure the image covers the full background
