@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="light">
       <div
-        className="grid grid-cols-12 gap-6 px-5 pt-20 sm:px-20 md:px-32 lg:px-36 xl:px-48"
+        className="grid grid-cols-12 gap-6 px-5 pt-40 sm:px-20 md:px-32 lg:px-36 xl:px-48"
         style={{
           backgroundImage: "url('/images/circuits.jpg')", // Circuit background image
           backgroundSize: "cover", // Ensure the image covers the full background
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         }}
       >
         {/* Sidebar */}
-        <div className="h-full col-span-12 p-4 text-base text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
+        <div className="col-span-12 p-4 text-base text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
           <Sidebar />
         </div>
         {/* Main Content */}
