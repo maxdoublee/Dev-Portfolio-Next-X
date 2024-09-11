@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -8,6 +8,17 @@ body {
    background-image: url('/images/circuits.jpg'); 
    background-size: cover; 
    background-position: center; 
-   background-repeat: no-repeat; /* Prevent the image from repeating */
-   min-height: 100vh; /* Ensures the background covers the full viewport height */
+   background-repeat: no-repeat; 
+   min-height: 100vh; 
+}
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   font-family: sans-serif;
+   color: #354358;
+   background-color: red; /* Test with a background color to check if global styles are applied */
 }
