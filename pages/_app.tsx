@@ -8,24 +8,26 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="light">
       <div
-        className="grid grid-cols-12 gap-6 px-5 pt-40 sm:px-20 md:px-32 lg:px-36 xl:px-48"
+        className="min-h-screen flex justify-center items-center" // Flexbox for centering content
         style={{
-          backgroundImage: "url('/images/circuits.jpg')", // Keep the background image
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          minHeight: "100vh",
+          backgroundImage: "url('/images/circuits.jpg')", // Custom background image
+          backgroundSize: "cover", // Ensure it covers the entire viewport
+          backgroundPosition: "center", // Center the background image
+          backgroundRepeat: "no-repeat", // Prevent background from repeating
         }}
       >
-        {/* Sidebar */}
-        <div className="h-full col-span-12 lg:col-span-3 p-4 text-base text-center bg-white dark:bg-dark-500 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
-          <Sidebar />
-        </div>
+        {/* Wrapper for Sidebar and Main Content */}
+        <div className="grid grid-cols-12 gap-6 w-full max-w-screen-lg p-5">
+          {/* Sidebar */}
+          <div className="col-span-12 lg:col-span-3 p-4 text-base text-center bg-white dark:bg-dark-500 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
+            <Sidebar />
+          </div>
 
-        {/* Main Content */}
-        <div className="flex flex-col col-span-12 lg:col-span-9 overflow-hidden bg-white dark:bg-dark-500 rounded-2xl shadow-custom-light dark:shadow-custom-dark p-6">
-          <Navbar />
-          <Component {...pageProps} />
+          {/* Main Content */}
+          <div className="col-span-12 lg:col-span-9 p-6 bg-white dark:bg-dark-500 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
+            <Navbar />
+            <Component {...pageProps} />
+          </div>
         </div>
       </div>
     </ThemeProvider>
