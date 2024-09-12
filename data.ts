@@ -3,8 +3,8 @@ import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
-import RoboticArmIcon from '/roboticarm.svg';
 import { BsCircleFill } from "react-icons/bs";
+import RoboticArmIcon from '../public/roboticarm.svg'; 
 
 export const services: Service[] = [
   {
