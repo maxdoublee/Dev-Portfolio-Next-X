@@ -3,12 +3,13 @@ import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
+import { ReactComponent as roboticarm } from 'react-icons/custom/roboticarm.svg';
 
 import { BsCircleFill } from "react-icons/bs";
 
 export const services: Service[] = [
   {
-    Icon: RiComputerLine,
+    Icon: roboticarm,
     title: "Frontend Development",
     about:
       "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",

@@ -88,7 +88,7 @@ const Sidebar = () => {
           rel="noopener noreferrer"
           className="w-8/12 px-5 py-2 text-white bg-black rounded-full text-center"
         >
-          Project Creator
+          View Source
         </a>
       </div>
     </>
