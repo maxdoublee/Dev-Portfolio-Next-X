@@ -44,10 +44,9 @@ const Sidebar = () => {
       <div className="flex justify-around w-9/12 mx-auto my-5 text-gray-500 md:w-full">
         <a 
           href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A" 
-          className="w-8 h-8 cursor-pointer flex items-center justify-center" 
-          style={{ backgroundColor: "#FF0000", borderRadius: "4px", padding: "8px" }}  // Red background with padding
+          className="w-8 h-8 cursor-pointer flex items-center justify-center"
         >
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" style={{ color: "#FFFFFF" }} />  {/* White play button */}
+          <AiFillYoutube className="w-8 h-8 cursor-pointer" style={{ color: "#FF0000" }} />  {/* Red YouTube logo with white play button */}
         </a>
         <a 
           href="https://www.linkedin.com/in/sumit-dey-4a04431a9/"
