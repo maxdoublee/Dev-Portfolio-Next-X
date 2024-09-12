@@ -23,7 +23,7 @@ const Sidebar = () => {
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-black">Sumit</span> Dey
+        <span className="text-black">Max</span> Destil
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Electrical Engineer
@@ -69,17 +69,19 @@ const Sidebar = () => {
         </p>
       </div>
 
+     {/* Email Button */}
       <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:code.sumax@gmail.com")}
+        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer hover:scale-105 focus:outline-none"
+        onClick={() => window.open("mailto:destim@rpi.edu")}
       >
-        Email me
+        Email Me
       </button>
+
+      {/* Toggle Theme Button */}
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
+        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer hover:scale-105 focus:outline-none"
       >
-        {/* //TODO remove bg black */}
         Toggle Theme
       </button>
     </>
