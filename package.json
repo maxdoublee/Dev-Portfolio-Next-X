@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
     "next": "^14.2.9",
     "next-svgr": "^0.0.2",
     "next-themes": "^1.0.0-beta.0",
