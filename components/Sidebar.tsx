@@ -74,7 +74,7 @@ const Sidebar = () => {
       </div>
 
      {/* Buttons - Adjust spacing and layout */}
-      <div className="flex flex-col items-center space-y-4 w-full mt-13 flex-grow">
+      <div className="flex flex-col items-center space-y-4 w-full mt-12 flex-grow">
         <button
           className="w-8/12 px-5 py-2 text-white bg-black rounded-full"
           onClick={() => window.open("mailto:destim@rpi.edu")}
