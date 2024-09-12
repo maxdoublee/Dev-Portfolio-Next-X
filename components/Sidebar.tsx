@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
@@ -69,23 +69,24 @@ const Sidebar = () => {
         </p>
       </div>
 
-      {/* Email Button */}
-      <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full my-2"
-        onClick={() => window.open("mailto:destim@rpi.edu")}
-      >
-        Email Me
-      </button>
+      {/* Email Button and Project Creator Link */}
+      <div className="flex flex-col items-center space-y-2 w-full">
+        <button
+          className="w-8/12 px-5 py-2 text-white bg-black rounded-full"
+          onClick={() => window.open("mailto:destim@rpi.edu")}
+        >
+          Email Me
+        </button>
 
-      {/* Credit to Creator Link */}
-      <a
-        href="https://github.com/creator-username"  // Replace with the actual GitHub URL
-        target="_blank"  // Opens the link in a new tab
-        rel="noopener noreferrer"  // Adds security when opening links in new tabs
-        className="w-8/12 px-5 py-2 mt-4 text-white bg-black rounded-full text-center"
-      >
-        View Project Creator
-      </a>
+        <a
+          href="https://github.com/creator-username"  // Replace with the actual GitHub URL
+          target="_blank"  // Opens the link in a new tab
+          rel="noopener noreferrer"  // Adds security when opening links in new tabs
+          className="w-8/12 px-5 py-2 text-white bg-black rounded-full text-center"
+        >
+          View Project Creator
+        </a>
+      </div>
     </>
   );
 };
