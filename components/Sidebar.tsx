@@ -31,12 +31,13 @@ const Sidebar = () => {
 
       {/* Resume */}
       <a
-        href="/assets/Sumit Dey Resume.pdf"
-        download="Sumit Dey Resume.pdf"
+        href="/assets/Sumit Dey Resume.pdf"  // Path to your PDF file
+        target="_blank"  // Opens the PDF in a new tab
+        rel="noopener noreferrer"  // Ensures security when opening a new tab
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
-        <span>Download Resume</span>
+        <span>View Resume</span>
       </a>
 
       {/* Socials */}
@@ -60,29 +61,31 @@ const Sidebar = () => {
       <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500" style={{ marginLeft: "-1rem", marginRight: "-1rem" }}>
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" />
-          <span>Kolkata, India</span>
+          <span>Greater New York City Area</span>
         </div>
-        <p className="my-2">code.sumax@gmail.com</p>
+        <p className="my-2">destim@rpi.edu</p>
         <p className="my-2">
-          <a href="tel:8514961665">8514961665</a> / <a href="tel:8640960375">8640960375</a>
+          <a href="tel:(917)-273-5876">(917)-273-5876</a> 
         </p>
       </div>
 
       {/* Email Button */}
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full my-2"
-        onClick={() => window.open("mailto:code.sumax@gmail.com")}
+        onClick={() => window.open("mailto:destim@rpi.edu")}
       >
         Email Me
       </button>
 
-      {/* Theme Toggle Button */}
-      <button
-        onClick={changeTheme}
-        className="w-8/12 px-5 py-2 mt-4 text-white bg-black rounded-full"
+      {/* Credit to Creator Link */}
+      <a
+        href="https://github.com/creator-username"  // Replace with the actual GitHub URL
+        target="_blank"  // Opens the link in a new tab
+        rel="noopener noreferrer"  // Adds security when opening links in new tabs
+        className="w-8/12 px-5 py-2 mt-4 text-white bg-black rounded-full text-center"
       >
-        Toggle Theme
-      </button>
+        View Project Creator
+      </a>
     </>
   );
 };
