@@ -42,9 +42,14 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-gray-500 md:w-full">
-        <a href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A">
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" />
+        <a 
+          href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A" 
+          className="w-8 h-8 cursor-pointer flex items-center justify-center" 
+          style={{ backgroundColor: "#FF0000", borderRadius: "4px" }}
+        >
+          <AiFillYoutube className="w-8 h-8 cursor-pointer" style={{ color: "#FFFFFF" }} />  {/* YouTube white color inside red box */}
         </a>
+        
         <a 
           href="https://www.linkedin.com/in/sumit-dey-4a04431a9/"
           className="w-8 h-8 cursor-pointer flex items-center justify-center" 
@@ -52,6 +57,7 @@ const Sidebar = () => {
         >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" style={{ color: "#0A66C2" }} />  {/* LinkedIn blue color */}
         </a>
+        
         <a href="https://github.com/your-github-username">
           <AiFillGithub className="w-8 h-8 cursor-pointer" style={{ color: "#181717" }} />  {/* GitHub black color */}
         </a>
