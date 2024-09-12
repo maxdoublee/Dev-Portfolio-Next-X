@@ -51,8 +51,8 @@ const Sidebar = () => {
         >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" style={{ color: "#0A66C2" }} />  {/* LinkedIn blue color */}
         </a>
-        <a href="https://www.instagram.com/_sumax__/">
-          <AiFillInstagram className="w-8 h-8 cursor-pointer" />
+        <a href="https://github.com/your-github-username">
+          <AiFillGithub className="w-8 h-8 cursor-pointer" style={{ color: "#181717" }} />  {/* GitHub black color */}
         </a>
       </div>
 
