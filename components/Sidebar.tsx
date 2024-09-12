@@ -73,20 +73,24 @@ const Sidebar = () => {
         </p>
       </div>
 
-     {/* Email Button */}
-      <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:destim@rpi.edu")}
-      >
-        Email Me
-      </button>
+     {/* Buttons - Adjust spacing and layout */}
+      <div className="flex flex-col items-center space-y-4 w-full mt-10 flex-grow">
+        <button
+          className="w-8/12 px-5 py-2 text-white bg-black rounded-full"
+          onClick={() => window.open("mailto:destim@rpi.edu")}
+        >
+          Email Me
+        </button>
 
-      <button
-        onClick={() => window.open('https://github.com/creator-username', '_blank')}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer hover:scale-105 focus:outline-none"
-      >
-        Project Creator
-      </button>
+        <a
+          href="https://github.com/creator-username"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-8/12 px-5 py-2 text-white bg-black rounded-full text-center"
+        >
+          Project Creator
+        </a>
+      </div>
     </>
   );
 };
