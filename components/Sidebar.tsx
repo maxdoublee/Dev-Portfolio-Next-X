@@ -65,25 +65,25 @@ const Sidebar = () => {
         </div>
         <p className="my-2">destim@rpi.edu</p>
         <p className="my-2">
-          <a href="tel:(917)273-5876">(917)273-5876</a> 
+          <a href="tel:(917) 273-5876">(917) 273-5876</a> 
         </p>
       </div>
 
-      {/* Email Button and Project Creator Link */}
-        <div className="flex flex-col items-center space-y-4 w-full mt-5">
-          <button
-            className="w-8/12 px-5 py-2 text-white bg-black rounded-full"
-            onClick={() => window.open("mailto:destim@rpi.edu")}
-          >
-            Email Me
-          </button>
+      {/* Buttons - Adjust spacing and layout */}
+      <div className="flex flex-col items-center space-y-4 w-full mt-5">
+        <button
+          className="w-8/12 px-5 py-2 text-white bg-black rounded-full"
+          onClick={() => window.open("mailto:destim@rpi.edu")}
+        >
+          Email Me
+        </button>
 
-          <a
-            href="https://github.com/creator-username"  // Replace with the actual GitHub URL
-            target="_blank"  // Opens the link in a new tab
-            rel="noopener noreferrer"  // Adds security when opening links in new tabs
-            className="w-8/12 px-5 py-2 text-white bg-black rounded-full text-center"
-          >
+        <a
+          href="https://github.com/creator-username"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-8/12 px-5 py-2 mt-4 text-white bg-black rounded-full text-center"
+        >
           Credit Project Creator
         </a>
       </div>
