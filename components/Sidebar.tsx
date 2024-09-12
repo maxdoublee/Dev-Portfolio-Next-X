@@ -46,8 +46,8 @@ const Sidebar = () => {
         </a>
         <a 
           href="https://www.linkedin.com/in/sumit-dey-4a04431a9/"
-          className="w-8 h-8 cursor-pointer"
-          style={{ backgroundColor: "#ffffff", padding: "4px", borderRadius: "4px" }}  // White background to match LinkedIn logo style
+          className="w-8 h-8 cursor-pointer flex items-center justify-center" 
+          style={{ backgroundColor: "#ffffff", borderRadius: "4px" }}
         >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" style={{ color: "#0A66C2" }} />  {/* LinkedIn blue color */}
         </a>
