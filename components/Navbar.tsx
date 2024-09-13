@@ -49,14 +49,14 @@ const Navbar = () => {
             <NavItem
                active={active}
                setActive={setActive}
-               name='Resume'
-               route='/resume'
+               name='Projects'
+               route='/projects'
             />
             <NavItem
                active={active}
                setActive={setActive}
-               name='Projects'
-               route='/projects'
+               name='Experience'
+               route='/experience'
             />
          </div>
       </div>

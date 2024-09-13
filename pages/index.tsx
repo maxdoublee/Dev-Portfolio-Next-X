@@ -21,7 +21,7 @@ const About: NextPage = () => {
         PCB design, FPGA validation, embedded systems development, as well as wireless communication systems. 
         I am eager to contribute to cutting-edge projects and 
         collaborate with forward-thinking professionals. Feel free to reach out to
-        discuss how my expertise aligns with your organization's needs. Thank you for your interest. 
+        discuss how my expertise aligns with your organization's needs. 
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
