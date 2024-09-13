@@ -49,7 +49,7 @@ const Sidebar = () => {
           <AiFillYoutube className="w-8 h-8 cursor-pointer" style={{ color: "#FF0000" }} />  {/* Red YouTube logo with white play button */}
         </a>
         <a 
-          href="www.linkedin.com/in/max-destil-75340b221"
+          href="https://www.linkedin.com/in/max-destil-75340b221"
           className="w-8 h-8 cursor-pointer flex items-center justify-center" 
           style={{ backgroundColor: "#ffffff", borderRadius: "4px" }}
         >
