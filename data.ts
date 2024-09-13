@@ -4,11 +4,11 @@ import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 import { BsCircleFill } from "react-icons/bs";
-import RoboticArmIcon from '../public/roboticarm.svg'; 
+import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 
 export const services: Service[] = [
   {
-    Icon: RoboticArmIcon,
+    Icon: MdOutlinePrecisionManufacturing,
     title: "Frontend Development",
     about:
       "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
