@@ -6,16 +6,18 @@ import { IProject, Service, Skill } from "./types";
 import { BsCircleFill } from "react-icons/bs";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 import { FaBrain } from 'react-icons/fa';
+import { MdDeveloperBoard } from 'react-icons/md';  // Represents a developer board, which is relevant to circuits
+import { FaMicrochip } from 'react-icons/fa';  // Represents a microchip, common in circuits
 
 export const services: Service[] = [
   {
-    Icon: MdOutlinePrecisionManufacturing,
+    Icon: FaMicrochip,
     title: "Frontend Development",
     about:
       "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
   },
   {
-    Icon: FaServer,
+    Icon: MdDeveloperBoard,
     title: "Backend  Development",
     about:
       "handle database, server, api using <b>Express </b> & other popular frameworks",
