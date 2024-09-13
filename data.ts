@@ -8,6 +8,8 @@ import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 import { FaBrain } from 'react-icons/fa';
 import { MdDeveloperBoard } from 'react-icons/md';  // Represents a developer board, which is relevant to circuits
 import { FaMicrochip } from 'react-icons/fa';  // Represents a microchip, common in circuits
+import { MdDeviceHub } from 'react-icons/md';  // Represents connectivity, applicable to PCBs or circuit designs
+import { FaBatteryFull } from 'react-icons/fa';  // Represents a fully charged battery
 
 export const services: Service[] = [
   {
@@ -17,19 +19,19 @@ export const services: Service[] = [
       "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
   },
   {
-    Icon: MdDeveloperBoard,
+    Icon: MdDeviceHub,
     title: "Backend  Development",
     about:
       "handle database, server, api using <b>Express </b> & other popular frameworks",
   },
   {
-    Icon: AiOutlineApi,
+    Icon: FaBatteryFull,
     title: "API Development",
     about:
       "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
   },
   {
-    Icon: MdDeveloperMode,
+    Icon: MdDeveloperBoard,
     title: "Competitive Coder",
     about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
   },
