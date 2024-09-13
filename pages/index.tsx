@@ -20,7 +20,7 @@ const About: NextPage = () => {
         I am seeking full-time employment opportunities where I can leverage my skills in 
         PCB design, FPGA validation, embedded systems development, as well as wireless communication systems. 
         I am eager to contribute to cutting-edge projects and 
-        collaborate with forward-thinking professionals. Feel free to reach out to
+        collaborate with forward-thinking professionals. Feel free to reach out so we can discuss
         discuss how my expertise aligns with your organization's needs. 
       </h6>
       <div
