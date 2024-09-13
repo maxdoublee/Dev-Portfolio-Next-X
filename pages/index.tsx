@@ -17,7 +17,7 @@ const About: NextPage = () => {
       <h6 className="my-3 text-base font-medium">
         Hello, my name is Max and I am currently in the final term of my Master's Degree 
         in Electrical Engineering at Rensselaer Polytechnic Institute. 
-        I am seeking full-time employment where I can leverage my skills in 
+        I am seeking opportunities for full-time employment where I can leverage my skills in 
         PCB design, FPGA validation, embedded systems development and wireless communication systems.
         I am eager to contribute to cutting-edge projects and 
         collaborate with forward-thinking professionals. Feel free to reach out to
