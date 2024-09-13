@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        src="/images/avatar.jpg"  // Local image path relative to the 'public' directory
+        src="/Users/mdestil/Hosted Files/profile pic.PNG"  // Local image path relative to the 'public' directory
         alt="avatar"
         className="mx-auto border rounded-full"
         height={128}
@@ -31,7 +31,7 @@ const Sidebar = () => {
 
       {/* Resume */}
       <a
-        href="/assets/Sumit Dey Resume.pdf"  // Path to your PDF file
+        href="/Users/mdestil/Hosted Files/Professional Resume.pdf"  // Path to your PDF file
         target="_blank"  // Opens the PDF in a new tab
         rel="noopener noreferrer"  // Ensures security when opening a new tab
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
@@ -43,20 +43,20 @@ const Sidebar = () => {
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-gray-500 md:w-full">
         <a 
-          href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A" 
+          href="https://www.youtube.com/" 
           className="w-8 h-8 cursor-pointer flex items-center justify-center"
         >
           <AiFillYoutube className="w-8 h-8 cursor-pointer" style={{ color: "#FF0000" }} />  {/* Red YouTube logo with white play button */}
         </a>
         <a 
-          href="https://www.linkedin.com/in/sumit-dey-4a04431a9/"
+          href="www.linkedin.com/in/max-destil-75340b221"
           className="w-8 h-8 cursor-pointer flex items-center justify-center" 
           style={{ backgroundColor: "#ffffff", borderRadius: "4px" }}
         >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" style={{ color: "#0A66C2" }} />  {/* LinkedIn blue color */}
         </a>
         
-        <a href="https://github.com/your-github-username">
+        <a href="https://github.com/maxdoublee">
           <AiFillGithub className="w-8 h-8 cursor-pointer" style={{ color: "#181717" }} />  {/* GitHub black color */}
         </a>
       </div>
