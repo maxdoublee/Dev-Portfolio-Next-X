@@ -28,7 +28,7 @@ const About: NextPage = () => {
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <h4 className="my-3 text-xl font-semibold tracking-wide">
-          Notable Projects (See 'Project' Tab for more details)
+          Notable Projects (See 'Projects' Tab for more details)
         </h4>
 
         <div className="grid gap-6 my-3 md:grid-cols-2">

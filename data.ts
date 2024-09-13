@@ -5,6 +5,7 @@ import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 import { BsCircleFill } from "react-icons/bs";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
+import { FaBrain } from 'react-icons/fa';
 
 export const services: Service[] = [
   {
@@ -31,14 +32,14 @@ export const services: Service[] = [
     about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
   },
   {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    Icon: FaBrain,
+    title: "BCI Engineer",
     about:
       "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
   },
   {
-    Icon: RiComputerLine,
-    title: "Whatever",
+    Icon: MdOutlinePrecisionManufacturing,
+    title: "Robotic Arm Lead",
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
   },
