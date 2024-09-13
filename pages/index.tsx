@@ -15,10 +15,13 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
-        I am  pursuing a Master's Degree in Electrical Engineering
-        at Rensselaer Polytechnic Institute in Troy, NY. Currently I am seeking 
-        full-time employment to leverage my expertise in low power PCB design and
-        robotic arms.
+        Hello, my name is Max and I am currently in the final term of my Master's Degree 
+        in Electrical Engineering at Rensselaer Polytechnic Institute. 
+        I am seeking full-time employment opportunities where I can leverage my skills in 
+        PCB design, FPGA validation, embedded systems development, as well as wireless communication systems. 
+        I am eager to contribute to cutting-edge projects and 
+        collaborate with forward-thinking professionals. Feel free to reach out to
+        discuss how my expertise aligns with your organization's needs. Thank you for your interest. 
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
