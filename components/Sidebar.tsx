@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        src="/Users/mdestil/Hosted Files/profile pic.PNG"  // Local image path relative to the 'public' directory
+        src="/profile pic.PNG"  // Local image path relative to the 'public' directory
         alt="avatar"
         className="mx-auto border rounded-full"
         height={128}
@@ -31,7 +31,7 @@ const Sidebar = () => {
 
       {/* Resume */}
       <a
-        href="/Users/mdestil/Hosted Files/Professional Resume.pdf"  // Path to your PDF file
+        href="/Professional Resume.pdf"  // Path to your PDF file
         target="_blank"  // Opens the PDF in a new tab
         rel="noopener noreferrer"  // Ensures security when opening a new tab
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
