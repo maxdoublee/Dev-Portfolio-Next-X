@@ -44,19 +44,27 @@ const Sidebar = () => {
       <div className="flex justify-around w-9/12 mx-auto my-5 text-gray-500 md:w-full">
         <a 
           href="https://www.youtube.com/" 
+          target="_blank"  // Opens in a new tab
+          rel="noopener noreferrer"  // Ensures security
           className="w-8 h-8 cursor-pointer flex items-center justify-center"
         >
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" style={{ color: "#FF0000" }} />  {/* Red YouTube logo with white play button */}
+          <AiFillYoutube className="w-8 h-8 cursor-pointer" style={{ color: "#FF0000" }} />  {/* Red YouTube logo */}
         </a>
         <a 
           href="https://www.linkedin.com/in/max-destil-75340b221"
+          target="_blank"  // Opens in a new tab
+          rel="noopener noreferrer"  // Ensures security
           className="w-8 h-8 cursor-pointer flex items-center justify-center" 
           style={{ backgroundColor: "#ffffff", borderRadius: "4px" }}
         >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" style={{ color: "#0A66C2" }} />  {/* LinkedIn blue color */}
         </a>
-        
-        <a href="https://github.com/maxdoublee">
+        <a 
+          href="https://github.com/maxdoublee"
+          target="_blank"  // Opens in a new tab
+          rel="noopener noreferrer"  // Ensures security
+          className="w-8 h-8 cursor-pointer"
+        >
           <AiFillGithub className="w-8 h-8 cursor-pointer" style={{ color: "#181717" }} />  {/* GitHub black color */}
         </a>
       </div>
