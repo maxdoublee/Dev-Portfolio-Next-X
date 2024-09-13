@@ -38,7 +38,7 @@ export const services: Service[] = [
   },
   {
     Icon: FaBrain,
-    title: "BCI Engineer",
+    title: "MindRace",
     about:
       "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
   },
