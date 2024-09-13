@@ -10,6 +10,7 @@ import { MdDeveloperBoard } from 'react-icons/md';  // Represents a developer bo
 import { FaMicrochip } from 'react-icons/fa';  // Represents a microchip, common in circuits
 import { MdDeviceHub } from 'react-icons/md';  // Represents connectivity, applicable to PCBs or circuit designs
 import { FaBatteryFull } from 'react-icons/fa';  // Represents a fully charged battery
+import { FiWifi } from 'react-icons/fi'; // Example for a wireless symbol
 
 export const services: Service[] = [
   {
@@ -42,7 +43,7 @@ export const services: Service[] = [
       "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
   },
   {
-    Icon: MdOutlinePrecisionManufacturing,
+    Icon: FiWifi,
     title: "Robotic Arm Lead",
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
