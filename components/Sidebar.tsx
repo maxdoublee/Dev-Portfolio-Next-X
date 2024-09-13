@@ -91,7 +91,7 @@ const Sidebar = () => {
         </button>
 
         <a
-          href="https://github.com/creator-username"
+          href="https://github.com/Dey-Sumit/Dev-Portfolio-Next-X"
           target="_blank"
           rel="noopener noreferrer"
           className="w-8/12 px-5 py-2 text-white bg-black rounded-full text-center"
