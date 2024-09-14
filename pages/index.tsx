@@ -18,8 +18,7 @@ const About: NextPage = () => {
         Hello, my name is Max and I am currently in the final term of my Master's Degree 
         in Electrical Engineering at Rensselaer Polytechnic Institute. 
         I am seeking opportunities for full-time employment where I can leverage my skills in 
-        PCB design, FPGA validation, embedded systems development and wireless communication systems
-        obtained through my graduate coursework and internship experience.
+        PCB design, FPGA validation, embedded systems development and wireless communication systems.
         I am eager to contribute to cutting-edge projects and 
         collaborate with forward-thinking professionals. Feel free to reach out to
         discuss how my expertise aligns with your organization's needs. Thanks for visiting my page. 
