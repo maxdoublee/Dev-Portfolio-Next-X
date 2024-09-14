@@ -38,9 +38,9 @@ export const services: Service[] = [
   },
   {
     Icon: FaBrain,
-    title: "MindRace",
+    title: "MindRace: EEG-Driven Robotic Car Control",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "Developed an embedded system integrating a NeuroSky EEG biosensor with microcontrollers using SPI, I2C, and UART protocols to enable mind-controlled navigation of a robotic car."
   },
   {
     Icon: FiWifi,
