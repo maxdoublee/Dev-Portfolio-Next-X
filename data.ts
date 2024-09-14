@@ -15,7 +15,7 @@ import { FiWifi } from 'react-icons/fi'; // Example for a wireless symbol
 export const services: Service[] = [
   {
     Icon: FaMicrochip,
-    title: "Low-Power Triple Cascode Gain-Boosted OTA for High-Performance Sample-and-Hold Circuits in 250nm CMOS",
+    title: "Low-Power Triple Cascode Gain-Boosted OTA for High-Performance Sample-and-Hold Circuits",
     about:
       "Designed a low-power triple cascode gain-boosted OTA for high-performance sample-and-hold circuits in 250nm CMOS technology achieving high gain, wide output swing, and minimized power consumption",
   },
