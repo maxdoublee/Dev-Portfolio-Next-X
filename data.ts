@@ -33,14 +33,14 @@ export const services: Service[] = [
   },
   {
     Icon: MdDeveloperBoard,
-    title: "Competitive Coder",
+    title: "Digital Filter Design and FPGA Implementation for Signal Processing Applications",
     about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
   },
   {
     Icon: FaBrain,
     title: "MindRace: EEG-Driven Robotic Car Control",
     about:
-      "Developed an embedded system integrating a NeuroSky EEG biosensor with microcontrollers using SPI, I2C, and UART protocols to enable mind-controlled navigation of a robotic car."
+      "Developed an embedded system integrating a NeuroSky EEG biosensor with microcontrollers using SPI, I2C, and UART protocols to enable mind-controlled navigation of a robotic car"
   },
   {
     Icon: FiWifi,
