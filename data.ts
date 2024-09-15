@@ -33,8 +33,8 @@ export const services: Service[] = [
   },
   {
     Icon: MdDeveloperBoard,
-    title: "Digital Filter Design and FPGA Implementation for Signal Processing Applications",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    title: "FPGA Implementation of FIR and IIR Filters for Real-Time Signal Processing Applications",
+    about: "Designed and implemented low-pass FIR and IIR filters on FPGA using Verilog, incorporating quantization techniques, pipelining, and parallel processing for optimized real-time signal processing",
   },
   {
     Icon: FaBrain,
