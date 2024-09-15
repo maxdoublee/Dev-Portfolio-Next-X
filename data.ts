@@ -34,7 +34,7 @@ export const services: Service[] = [
   {
     Icon: MdDeveloperBoard,
     title: "FPGA Implementation of Low-Pass FIR and IIR Filters with Pipelining and Parallel Processing",
-    about: "Designed and implemented 100-tap low-pass FIR and elliptic IIR filters in Verilog for FPGA, achieving 0.2π-0.23π rad/sample transition and 80dB attenuation. Utilized pipelining and parallel processing (L=2, L=3) for latency optimization, with detailed analysis of quantization effects, frequency response, and power estimation",
+    about: "Designed and implemented 100-tap low-pass FIR and elliptic IIR filters in Verilog on FPGA, achieving 0.2π-0.23π rad/sample transition and 80dB attenuation. Utilized pipelining and parallel processing (L=2, L=3) for latency optimization, with detailed analysis of quantization effects, frequency response, and power estimation",
   },
   {
     Icon: FaBrain,
