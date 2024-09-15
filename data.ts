@@ -33,8 +33,8 @@ export const services: Service[] = [
   },
   {
     Icon: MdDeveloperBoard,
-    title: "FPGA Implementation of FIR and IIR Filters for Real-Time Signal Processing Applications",
-    about: "Designed and implemented low-pass FIR and IIR filters on FPGA using Verilog, incorporating quantization techniques, pipelining, and parallel processing for optimized real-time signal processing",
+    title: "FPGA Implementation of Low-Pass FIR and IIR Filters with Pipelining and Parallel Processing",
+    about: "Designed and implemented 100-tap low-pass FIR and elliptic IIR filters in Verilog for FPGA, achieving 0.2π-0.23π rad/sample transition and 80dB attenuation. Utilized pipelining and parallel processing (L=2, L=3) for latency optimization, with detailed analysis of quantization effects, frequency response, and power estimation",
   },
   {
     Icon: FaBrain,
