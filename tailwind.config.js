@@ -14,7 +14,7 @@ module.exports = {
     extend: {
       colors: {
         green: {
-          DEFAULT: "#f3f4f6",  
+          DEFAULT: "#f81e1a",  // Your custom red
         },
         // You can also remove the dark color settings if you no longer need them
       },
