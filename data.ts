@@ -40,7 +40,7 @@ export const services: Service[] = [
     Icon: FaBrain,
     title: "MindRace: EEG-Driven Robotic Car Control",
     about:
-      "Developed an embedded system integrating a NeuroSky EEG biosensor with Arduino and MSP432 microcontrollers using SPI, I2C, and UART protocols to enable mind-controlled navigation of a robotic car"
+      "Developed an embedded system integrating a NeuroSky EEG biosensor with Arduino and MSP432 µcontrollers using SPI, I2C, and UART protocols to enable mind-controlled navigation of a robotic car"
   },
   {
     Icon: FiWifi,
