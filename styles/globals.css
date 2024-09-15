@@ -1,18 +1,3 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-   font-family: sans-serif;
-   color: #354358;
-   background-image: url('/images/circuits.jpg'); 
-   background-size: cover; 
-   background-position: center; 
-   background-repeat: no-repeat; 
-   min-height: 100vh; 
-}
-*/
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,5 +5,10 @@ body {
 body {
    font-family: sans-serif;
    color: #354358;
-   background-color: red; /* Test with a background color to check if global styles are applied */
+   background-color: #f3f4f6; /* Neutral fallback color */
+   background-image: url('/images/circuits.jpg'); 
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat; 
+   min-height: 100vh; 
 }
