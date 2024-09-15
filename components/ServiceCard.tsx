@@ -17,7 +17,7 @@ const ServiceCard: FunctionComponent<{ service: Service }> = ({
          <Icon className='w-12 h-12 text-green' /> {/* Change w-12 h-12 to adjust size */}
          
          {/* Or adjust icon size using inline styles */}
-         {/* <Icon style={{ width: '32px', height: '32px' }} className="text-green" /> */}
+         {<Icon style={{ width: '32px', height: '32px' }} className="text-green" /> }
          
          <div>
             <h6 className='font-bold'>{title}</h6>
