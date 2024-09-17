@@ -21,7 +21,7 @@ export const services: Service[] = [
   },
   {
     Icon: MdDeviceHub,
-    title: "PCB Design and Testing for Safety-Critical Avionics Systems",
+    title: "PCB Design and Test for Safety-Critical Avionic Systems",
     about:
       "Engineered multi-layer PCBs for safety-critical avionic systems capable of withstanding harsh operating conditions. Utilized Altium to execute design tasks, including component selection, library management, layout optimization, and signal integrity analysis. Ensured compliance with industry standards such as MIL-STD-461 for electromagnetic interference (EMI) by implementing testing procedures and environmental stress screening (ESS).",
   },
