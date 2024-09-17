@@ -30,7 +30,7 @@ const Navbar = () => {
    useEffect(() => {
       if (pathname === '/') setActive('About')
       else if (pathname === '/projects') setActive('Projects')
-      else if (pathname === '/resume') setActive('Resume')
+      else if (pathname === '/experience') setActive('Experience')
    }, [])
 
    return (

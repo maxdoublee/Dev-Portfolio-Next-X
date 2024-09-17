@@ -15,9 +15,9 @@ import { FiWifi } from 'react-icons/fi'; // Example for a wireless symbol
 export const services: Service[] = [
   {
     Icon: FaMicrochip,
-    title: "Low-Power Triple Cascode Gain-Boosted OTA for High-Performance Sample-and-Hold Circuits",
+    title: "Low-Power Triple Cascode Gain-Boosted OTA Design",
     about:
-      "Designed a low-power triple cascode gain-boosted OTA for high-performance sample-and-hold circuits in 250nm CMOS technology achieving high gain, wide output swing, and minimized power consumption",
+      "Designed and implemented a low-power triple cascode gain-boosted OTA in 250nm CMOS technology, achieving a DC gain of 90 dB, an output swing of 1.2V and a power consumption of 0.5 mW. Optimized biasing circuits and gain-boost stages to minimize power wastage while maintaining phase margin and stability. Developed for high-speed sample-and-hold circuits, meeting stringent performance requirements with a 250 MHz bandwidth.",
   },
   {
     Icon: MdDeviceHub,
@@ -33,8 +33,8 @@ export const services: Service[] = [
   },
   {
     Icon: MdDeveloperBoard,
-    title: "FPGA Implementation of Low-Pass FIR and IIR Filters with Pipelining and Parallel Processing",
-    about: "Designed and implemented 100-tap low-pass FIR and elliptic IIR filters in Verilog on FPGA, achieving 0.2π-0.23π rad/sample transition and 80dB attenuation. Utilized pipelining and parallel processing (L=2, L=3) for latency optimization, with detailed analysis of quantization effects, frequency response, and power estimation",
+    title: "Low-Pass FIR and IIR Filters with Pipelining and Parallel Processing",
+    about: "Designed and implemented on FPGA 100-tap low-pass FIR and elliptic IIR filters in Verilog, achieving 0.2π-0.23π rad/sample transition and 80dB attenuation. Utilized pipelining and parallel processing (L=2, L=3) for latency optimization, with detailed analysis of quantization effects, frequency response, and power estimation",
   },
   {
     Icon: FaBrain,
