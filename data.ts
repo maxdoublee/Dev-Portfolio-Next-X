@@ -21,9 +21,9 @@ export const services: Service[] = [
   },
   {
     Icon: MdDeviceHub,
-    title: "Backend  Development",
+    title: "Multi-Layer PCB Design and Testing for Safety-Critical Avionics Systems",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "Engineered multi-layer PCBs for avionics stand-by systems. Utilized Altium to execute design tasks, including component selection, library management, layout optimization, and signal integrity analysis. Ensured compliance with industry standards such as MIL-STD-461 for electromagnetic interference (EMI) by implementing testing procedures and environmental stress screening (ESS). Demonstrated full lifecycle involvement, from conceptualization to testing, meeting the rigorous demands of safety-critical avionic systems.",
   },
   {
     Icon: FaBatteryFull,
@@ -33,8 +33,8 @@ export const services: Service[] = [
   },
   {
     Icon: MdDeveloperBoard,
-    title: "Low-Pass FIR and IIR Filters with Pipelining and Parallel Processing",
-    about: "Designed and implemented on FPGA 100-tap low-pass FIR and elliptic IIR filters in Verilog, achieving 0.2π-0.23π rad/sample transition and 80dB attenuation. Utilized pipelining and parallel processing (L=2, L=3) for latency optimization, with detailed analysis of quantization effects, frequency response, and power estimation",
+    title: "Low-Pass FIR Filter with Pipelining and Parallel Processing",
+    about: "Designed and implemented on FPGA 100-tap low-pass FIR filter in Verilog, achieving 0.2π-0.23π rad/sample transition and 80dB attenuation. Utilized pipelining and parallel processing (L=2, L=3) for latency optimization, with detailed analysis of quantization effects, frequency response, and power estimation",
   },
   {
     Icon: FaBrain,
