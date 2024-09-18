@@ -15,10 +15,11 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
-        Hello, my name is Max and I am currently in the final term of my Master's Degree 
+        Hello, my name is Max and I am currently in the final term of my Master's Program (M.S.) 
         in Electrical Engineering at Rensselaer Polytechnic Institute. 
         I am seeking opportunities for full-time employment where I can leverage my skills in 
-        PCB design, FPGA validation, embedded systems development and wireless communication systems.
+        PCB design, FPGA validation, embedded systems development and wireless communication systems 
+        obtained through my graduate coursework and internship experiences.
         I am eager to contribute to cutting-edge projects and 
         collaborate with forward-thinking professionals. Feel free to reach out to
         discuss how my expertise aligns with your organization's needs. Thanks for visiting my page. 

@@ -27,13 +27,13 @@ export const services: Service[] = [
   },
   {
     Icon: FaBatteryFull,
-    title: "API Development",
+    title: "DC-DC Converter for Implantable Device Charging",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "Designed and simulated a DC-DC converter for implantable device charging using PLECS. Focused on optimizing battery management, including overcharge protection and voltage regulation. Conducted simulation and analysis covering steady-state and transient responses, voltage ripple and thermal performance to ensure the converter's efficiency and enhance the power source's longevity and reliability in constrained environments.",
   },
   {
     Icon: MdDeveloperBoard,
-    title: "Low-Pass FIR Filter with Pipelining and Parallel Processing",
+    title: "FIR Filter with Pipelining & Parallel Processing",
     about: "Designed and implemented on FPGA 100-tap low-pass FIR filter in Verilog, achieving 0.2π-0.23π rad/sample transition and 80dB attenuation. Utilized pipelining and parallel processing (L=2, L=3) for latency optimization, with detailed analysis of quantization effects, frequency response, and power estimation.",
   },
   {
