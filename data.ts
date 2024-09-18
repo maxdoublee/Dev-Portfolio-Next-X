@@ -29,7 +29,7 @@ export const services: Service[] = [
     Icon: FaBatteryFull,
     title: "DC-DC Converter for Implantable Device Charging",
     about:
-      "Designed and simulated a DC-DC converter for implantable device charging using PLECS. Focused on optimizing battery management, including overcharge protection and voltage regulation. Conducted simulation and analysis covering steady-state and transient responses, voltage ripple and thermal performance to ensure the converter's efficiency and enhance the power source's longevity and reliability in constrained environments.",
+      "Designed and simulated a DC-DC converter for implantable device charging using PLECS. Focused on optimizing battery management, including overcharge protection and voltage regulation. Conducted simulation and analysis covering steady-state and transient responses, voltage ripple and thermal performance to ensure the converter's efficiency and enhance the power source's reliability in constrained environments.",
   },
   {
     Icon: MdDeveloperBoard,
