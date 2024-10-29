@@ -31,7 +31,7 @@ const Sidebar = () => {
 
       {/* Resume */}
       <a
-        href="/Fall '24 Resume.docx"  // Path to your PDF file
+        href="/Fall '24 Resume.pdf"  // Path to your PDF file
         target="_blank"  // Opens the PDF in a new tab
         rel="noopener noreferrer"  // Ensures security when opening a new tab
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
